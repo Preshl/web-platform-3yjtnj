@@ -1,0 +1,119 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta="charset UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<h1 id="title">
+  Codevixens Academy Survey Form
+</h1>
+<p id="description">
+  Thank you for taking the time to help us improve the platform 
+</p>
+<form  id="survey-form" style="form">
+  <label for="name"><b>Name</b></Label><br>
+  <input id="name" type="text" placeholder="Enter your name"/><br><br>
+
+  <label for="email"><b>Email</b></label><br>
+  <input id="email" type="email" placeholder="Enter your email" required/><br><br>
+
+  <label for="number"><b>Age</b> (Optional)</label><br>
+  <input id="number" type="number" placeholder="Age"/><br><br>
+
+  <label for="dropdown">Which option best describes your current role?</label><br>
+  <select id="dropdown" name="dropdown">
+    <option value="select current role">Select current role</option>
+    <option value="Student">Student</option>
+    <option value="Full Time Job">Full Time job</option>
+    <option value="Full time Learner">Full Time Learner</option>
+    <option value="Preferred not to say">Preferred not to say</option>
+    <option value="Other">Other</option>
+ </select><br>
+
+ <p>
+   Would you recommend Codevixens Academy to a friend?
+ </p>
+ 
+ <p>
+ <input type="radio" id="Definitely" name="Choice" value="Definitely"/>
+ <label for="Definitely">
+   Definitely
+ </label><br>
+
+ <input type="radio" id="maybe" name="choice" value="maybe"/>
+ <label for="maybe">
+   Maybe
+   </label><br>
+
+   <input type="radio" id="Not sure" name="choice" value="Not sure"/>
+   <label for="Not Sure">
+     Not Sure
+   </label><br><br>
+   </p>
+   
+   <p>
+  what is your favorite feature on CodeVixens Academy  
+  </p>
+  <select>
+    <option type="dropdown" value="select amd option">Select an Option 
+ </option>
+
+ <option type="dropdown" value="Challenges">
+  Challenges 
+ </option>
+
+ <option type="dropdown" value="projects">
+   Projects
+ </option>
+
+ <option type="dropdown" value="Community">
+   Community
+ </option>
+
+ <option type="dropdown" value="Opensource">
+   Open Source 
+ </option> 
+  </select>
+
+  <p>
+    What would you like to see improved? (Check all that apply)
+  </p>
+
+<p>
+  <input type="checkbox" id="project" name="project" value="Frontend"/>
+  <label for="project">Front-end Web Development</><br>
+
+  <input type="checkbox" id="project" name="project" value="backend"/>
+  <label for="project">
+    Back-end Web Development
+    </label><br>
+
+    <input type="checkbox" id="project" name="project" value="UIUX"/>
+    <label for="project">UI-UX Projects</label><br>
+
+    <input type="checkbox" id="project" name="project" value="Technical Wrtting"/>
+    <label for="project">
+      Technical Writing
+      </label><br>
+
+      <input type="checkbox" id="project" name="project" value="content creation"/>
+      <label for="project">
+        Content Creation
+        </label><br>
+
+        <input type="checkbox" id="project" name="project" value="Data Analytics"/>
+        <label for="project">
+     Data Analytics
+        </label>
+</p>
+
+        <p>
+     Any comments or suggestions?  
+        </p>
+        <textarea name="text" id="text" cols="75" rows="7" placeholder="Enter your comment here..."></textarea><br><br>
+
+<input type="submit" id="submit" value="submit"/>
+</form>
+</body>
+</html>

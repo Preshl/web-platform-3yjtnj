@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #fff;
+  width: 100vw;
+  background: url('https://media.istockphoto.com/id/1357434517/photo/pro-girl-plays-computer-game-plays-rpg-strategy-on-a-championship-diverse-esport-team-of-pro.jpg?s=612x612&w=0&k=20&c=qwBA0AqOVjbJNw_MRHZ8R9S6_KpztxfOrNsJWhpasgo=') no-repeat center center/cover rgb(0,0,91,0.9);
+  background-size: 500% 500%;
+  display: flex;
+  justify-content: center;
+}
+
+#title, #description {
+  padding: 0 3rem;
+}
+
+#title {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#description {
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+#survey-form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 3rem 2.5rem;
+  background-color:rgba(0,0,0,0.7);
+}
+
+#survey-form label, #survey-form p{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#survey-form input {
+  margin-bottom: 1rem;
+}
+
+input[type=radio] #definitely {
+  display: inline;
+}
+
+#survey-form input[type=text],
+#survey-form input[type=email],
+#survey-form input[type=number],
+#survey-form select {
+  border: 2px solid #999;
+  background-color: white;
+  border-radius: 0.25rem;
+  height: 2.5rem;
+}
+
+input[type=radio] {
+  border: 2px solid #999;
+  background-color: white;
+  border-radius: 0.25rem;
+  height: 1.3rem;
+}
+
+textarea {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+input[type=submit] {
+  background: #04AA4D;;
+  border-radius: 0.5rem;
+  color: #fff;
+  width: 100%;
+  font-size: 1.5rem
+}
