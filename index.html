@@ -12,14 +12,14 @@
   Thank you for taking the time to help us improve the platform 
 </p>
 <form  id="survey-form" style="form">
-  <label for="name"><b>Name</b></Label><br>
+  <label for="name" id="name-label"><b>Name</b></Label><br>
   <input id="name" type="text" placeholder="Enter your name"/><br><br>
 
-  <label for="email"><b>Email</b></label><br>
+  <label for="email" id="email-label"><b>Email</b></label><br>
   <input id="email" type="email" placeholder="Enter your email" required/><br><br>
 
-  <label for="number"><b>Age</b> (Optional)</label><br>
-  <input id="number" type="number" placeholder="Age"/><br><br>
+  <label for="number" id="number-label"><b>Age</b> (Optional)</label><br>
+  <input id="number" type="number" placeholder="Age" min="1" max="99"/><br><br>
 
   <label for="dropdown">Which option best describes your current role?</label><br>
   <select id="dropdown" name="dropdown">
